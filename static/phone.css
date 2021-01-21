@@ -1,0 +1,71 @@
+@media only screen and (min-width:360px) {
+
+
+    
+#navbar ul {
+    display: flex;
+    width: 1439px;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(166 166 255);
+}
+
+#sec1 {
+    color: white;
+    display: flex;
+    width: 1439px;
+    justify-content: center;
+    align-items: center;
+    height: 451px;
+    background-color: orange;
+    background: center / cover no-repeat url(../static/bg.jpg);
+}
+.slide img {
+    width: 1439px;
+    height: 650px;
+    /* z-index: -3; */
+}
+.slide {
+    width: 1439px;
+    transition: 2s;
+}
+#radio2:checked ~ .first {
+    margin-left: -1435px;
+}
+#radio3:checked ~ .first {
+    margin-left: -2878px;
+}
+#radio4:checked ~ .first {
+    margin-left: -4317px;
+}
+#sec4 {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    margin-top: 50px;
+    width: 1439px;
+}
+#sec2 {
+    height: 300px;
+    width: 1436px;
+    background-color: pink;
+}
+
+#sec3 {
+    height: 100px;
+    width: 1439px;
+    background-color: black;
+}
+#mission {
+    text-align: center;
+    font-size: 44px;
+    width: 1439px;
+}
+#foot {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 1439px;
+}
+
+}

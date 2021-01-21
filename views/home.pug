@@ -1,0 +1,89 @@
+extends base.pug
+
+block scripts
+  script(src= '../static/index.js')
+block style
+    style
+        include ../static/style.css
+        include ../static/slides.css
+        include ../static/phone.css
+        
+block content
+        section#sec1
+            p welcome to dance acadmy
+        h2#mission our mission                   
+        section#slides
+                #slides
+                        input#radio1.t1(type='radio' name='radio')
+                        input#radio2.t1(type='radio' name='radio')
+                        input#radio3.t1(type='radio' name='radio')
+                        input#radio4.t1(type='radio' name='radio')
+                        div.slide.first
+                            img(src='../static/balle.jpg' alt='')
+                        
+                        div.slide
+                            img(src='../static/bharat.jpg' alt='')
+                            
+                        div.slide
+                            img(src='../static/street.jpg' alt='')
+                        div.slide
+                            img(src='../static/bolly.jpg' alt='')
+                        #auto-navigation
+                            div.auto-btn1
+                            div.auto-btn2
+                            div.auto-btn3
+                            div.auto-btn4
+                    
+                        .manual-navigation
+                            label.manual-btn(for='radio1')
+                            label.manual-btn(for='radio2')
+                            label.manual-btn(for='radio3')
+                            label.manual-btn(for='radio4')
+                       
+
+
+        section#sec4
+            div.card
+                h3 dance perfection
+                div.card-box
+                    div.card-img
+                        img(src="../static/logo1.png", alt="404")
+                    div.card-content
+                        p join our dance academy
+            div.card
+                h3 expert teaching
+                div.card-box
+                    div.card-img
+                        img(src="../static/logo2.png", alt="404")
+                    div.card-content
+                        p join our dance academy
+               
+
+            div.card
+                h3 dance showes
+                div.card-box
+                    div.card-img
+                        img(src="../static/logo4.png", alt="404")
+                    div.card-content
+                        p join our dance academy
+        section#sec2
+             h2 this is sponcer section
+             div.video
+             iframe.video_fram(width='560' height='315' src='https://www.youtube.com/embed/UWawJcxYY6I' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='')
+             iframe.video_fram(width='560' height='315' src='https://www.youtube.com/embed/ujREEgxEP7g' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='')
+             iframe.video_fram(width='560' height='315' src='https://www.youtube.com/embed/JWhA3ldZcyY' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='')
+
+
+             
+
+             
+        footer#sec3
+             p thi sis footer section
+                a(href='https://www.facebook.com') Visit FACEBOOK!
+                a(href='https://www.twittwr.com') Visit TWITTER!
+                a(href='https://www.instagram.com') Visit INSTAGRAM!
+                
+
+        script
+            include ../static/index.js   
+            include ../static/slide.js   

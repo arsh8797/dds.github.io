@@ -1,0 +1,27 @@
+doctype html
+html
+  head
+    title dancedilse.com
+    block scripts
+    block style
+  body
+    nav#navbar
+            ul
+                div#logo
+                    img(src="../static/logo3.png", alt="404")
+                    //- | Dance Dil Se
+                li #[a(href="/") home]
+                li #[a(href="/about") about]
+                li #[a(href="/contact") contact]
+                li #[a(href="/") class info]
+                li #[a(href="../static/services.html") services]
+                li #[a(href="https://docs.google.com/forms/d/e/1FAIpQLSfg_ptQQwlEtvY8J148xl24iv2LdAsDyPGFPwj6uaslyGs8HQ/viewform?usp=sf_link") Join Us]
+    block content
+
+    footer#foot
+    
+
+        |copyright © 2020 dancedilse.com|All Rights Reserve
+         
+    script
+        include ../static/index.js

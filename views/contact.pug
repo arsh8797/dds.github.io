@@ -1,0 +1,17 @@
+extends base.pug
+
+block scripts
+  script(src= '../static/index.js')
+block style
+    style
+        include ../static/style.css
+    style
+        include ../static/contact.css
+block content
+    form#contact(action='/contact' method='post')
+        input#name(type='text' name='Name' placeholder='enter your name')
+        input#add(type='textarea' name='address' placeholder='enter your address')
+        textarea#about(name='more' placeholder='tell us about yourself')
+        textarea#cont(name='contact' placeholder='enter your contact no.')
+        // <input type="radio" name="gender">male<input type="radio" name="gender">female
+        button#btn(type='submit')  submit

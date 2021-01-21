@@ -1,0 +1,32 @@
+form{
+    display: flex;
+    flex-direction: column;
+}
+form{
+    margin:  10PX 4px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+input,textarea{
+    display: block;
+    margin: 5px;
+    padding: 6px;
+    border: 1px solid #d01d1d;
+    border-radius: 18px;
+    width: 30%;
+}
+#btn{
+    padding: 7px;
+    height: auto;
+    color: red;
+    background-color: violet;
+    margin: auto 153px;
+    border: 1px solid black;
+    border-radius: 18px;
+    width: 118px;
+   
+}

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+*{
+    padding: opx;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(166 166 255);
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 1.4rem;
+} 
+#navbar li a:hover{
+    color: white;
+} 
+ #navbar ul li{ 
+    padding: 14px;
+    list-style: none;
+}
+#sec1 p{
+    font-family: Ultra;
+    font-size: xxx-large;
+    margin-bottom: 392px
+}
+#sec1{
+    color: white;
+    display: flex;
+      justify-content: center;
+     align-items: center;
+    height:451px ;
+    background-color:orange;
+    background: center / cover no-repeat url("../static/bg.jpg");
+  
+
+}
+#sec2{
+    height:300px ;
+    background-color:pink;
+}
+#sec2 h2{
+    font-family: serif;
+    text-align: center;
+}
+#sec3{
+    height:100px ;
+    background-color:black
+
+}
+#sec4{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    
+}
+#mission{
+    text-align: center;
+    font-size: 44px;
+
+    
+
+}
+#sec4 .card{
+    eight: 66%;
+    width: 324px;
+    border: 1px solid black;
+    margin: 55px -70px 50px 132px;
+    border-radius: 7px;
+    background-color: rgb(199, 199, 221);
+
+
+}
+#logo{
+    display: flex;
+    flex-direction: column;
+    
+}
+#logo img{
+    height: 44px;
+    filter: brightness(0.5);
+
+}
+.card-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.card-img{
+    height: 138px;
+    padding: 0px 10px;
+}
+.card-img img{
+    height: inherit;
+
+}
+.card h3{
+    text-align: center;
+}
+#foot{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+nav#navbar ul #register a{
+    margin: 23px;
+    padding: ;
+}
+.video{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+.video_fram{
+    position: relative;
+    width: 419px;
+    height: 236px;
+    padding: 12px;
+    margin: 15px;
+}
+
+.card-img img:hover{
+    transform: scale(1.2);
+    
+}
+#sec3 p{
+    display: flex;
+    flex-direction: column;
+
+}

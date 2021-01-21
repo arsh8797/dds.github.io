@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="silde2.html">
+    <style>
+        body {
+
+            background-color: black;
+        }
+
+        #sec2{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            /* justify-content: center; */
+            /* background-color: black; */
+        }
+
+        .slide{
+            /* animation: slide 2s 1s 10s right alternate; */
+            /* background-color: greenyellow; */
+            
+            position: relative;
+            animation-name: slide;
+          
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            width: 1287px;
+            height: 400px;
+            padding: 12px;
+            margin: 5px;
+        }
+
+        @keyframes slide {
+            0% {
+                right: 0px;
+                
+            }
+
+            50% {
+                right: 1287px;
+                
+            }
+
+            75% {
+                right: 2574px;
+             
+            }
+
+            100% {
+                right: 3861px;
+               
+            }
+
+        }
+
+        .slide img {
+            width: 800px;
+            height: 400px;
+            padding: 12px;
+            margin: 5px;
+            margin-left: 221px;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="sec2">
+        <section class="sec">
+            <div class="slide"><img src="../static/bharat.jpg" alt=""></div>
+        </section>
+        <section class="sec">
+            <div class="slide"><img src="../static/bolly.jpg" alt=""></div>
+        </section>
+        <section class="sec">
+            <div class="slide"><img src="../static/balle.jpg" alt=""></div>
+        </section>
+        <section class="sec">
+            <div class="slide"><img src="../static/street.jpg" alt=""></div>
+        </section>
+    </section>
+
+</body>
+
+</html>
